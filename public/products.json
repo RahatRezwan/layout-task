@@ -1,0 +1,86 @@
+[
+   {
+      "name": "Aroma Diffuser",
+      "description": "Original product comes in three styles of color, usb charger",
+      "variants": [
+         {
+            "name": "Variant 1",
+            "price": 20,
+            "image": "./products/diffuser-1.png"
+         },
+         {
+            "name": "Variant 2",
+            "price": 25,
+            "image": "./products/diffuser-2.png"
+         },
+         {
+            "name": "Variant 3",
+            "price": 30,
+            "image": "./products/diffuser-3.png"
+         }
+      ]
+   },
+   {
+      "name": "Lux Aroma Diffuser",
+      "description": "Beautiful decorative object, perfumes the space with your favorite fragrance.",
+      "variants": [
+         {
+            "name": "Variant 1",
+            "price": 12,
+            "image": "./products/lux-diffuser-1.png"
+         },
+         {
+            "name": "Variant 2",
+            "price": 18,
+            "image": "./products/lux-diffuser-2.png"
+         },
+         {
+            "name": "Variant 3",
+            "price": 24,
+            "image": "./products/diffuser-4.png"
+         }
+      ]
+   },
+   {
+      "name": "Aroma Diffuser-2",
+      "description": "Elegant decorative piece that adds a touch of warmth with a subtle vanilla aroma.",
+      "variants": [
+         {
+            "name": "Variant 1",
+            "price": 8,
+            "image": "./products/diffuser-5.png"
+         },
+         {
+            "name": "Variant 2",
+            "price": 12,
+            "image": "./products/diffuser-6.png"
+         },
+         {
+            "name": "Variant 3",
+            "price": 16,
+            "image": "./products/diffuser-7.png"
+         }
+      ]
+   },
+   {
+      "name": "Lux Aroma Diffuser-2",
+      "description": "Modern and stylish ornament that diffuses a refreshing ocean breeze fragrance.",
+      "variants": [
+         {
+            "name": "Variant 1",
+            "price": 22,
+            "image": "./products/lux-diffuser-2.png"
+         },
+         {
+            "name": "Variant 2",
+            "price": 30,
+            "image": "./products/lux-diffuser-1.png"
+         },
+         {
+            "name": "Variant 3",
+            "price": 40,
+            "image": "./products/diffuser-3.png"
+         }
+      ]
+   }
+]

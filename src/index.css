@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Old+Standard+TT:wght@400;700&family=Quicksand:wght@500;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+   background-color: #f1f1f1;
+}
+
+.card-title {
+   @apply text-2xl font-bold font-old-standard text-olive-green;
+}
+
+.card {
+   @apply bg-white hover:bg-olive-green cursor-pointer shadow-[2px_2px_5px_0px_rgba(0,0,0,0.15)] rounded-[0_1.25rem] transition-all duration-200 ease-in-out;
+}
+
+.section-header {
+   @apply font-abril text-[2rem] lg:text-[2.5rem] xl:text-[3.12rem] text-olive-green leading-[3.37rem];
+}
+
+.description {
+   @apply font-quicksand text-[0.9rem] xl:text-[1rem] font-medium leading-[1.8rem] text-olive-green;
+}
+
+.button {
+   @apply font-quicksand text-[0.9rem] xl:text-[1rem] uppercase leading-4 border-2 rounded-lg py-2 xl:py-3 w-[17.125rem] font-bold transition-all duration-100 ease-in-out;
+}
+
+.button-variant-1 {
+   @apply border-olive-green text-olive-green hover:bg-olive-green hover:text-white;
+}
+
+.button-variant-2 {
+   @apply border-olive-green text-white bg-olive-green hover:text-olive-green hover:bg-transparent;
+}
+
+.button-variant-3 {
+   @apply border-light-orange text-white bg-light-orange hover:text-light-orange hover:bg-transparent;
+}
+
+.swiper-pagination-bullet {
+   @apply w-[0.86rem] h-[0.86rem] text-center opacity-100 bg-opacity-40 bg-olive-green mt-5;
+}
+
+.swiper-pagination-bullet-active {
+   @apply text-white bg-olive-green;
+}
